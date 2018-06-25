@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:400,400i,600,600i,700,700i,800,800i|Roboto+Condensed:400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+	font-family: Open Sans;
+	font-size: 15px;
+	color: #333;
+	text-align: justify;
+}
+
+header{
+	background-color: rgba(27,27,27,1.00);
+	padding: 20px 0;
+}
+
+#intro{
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: auto;
+	height: auto;
+}
+
+#intro img{
+	image-orientation: right;
+}
+
+#intro h1{
+	color: #EDEDED;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 0px;
+	text-align: left;
+}
+
+h1{
+	color: #B91800;
+	font-size: 30px;
+	font-family: Lato, bold;
+	padding-bottom: 25px;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+h2{
+	color: #B91800;
+	font-size: 20px;
+	font-family: Lato, bold;
+	padding-bottom: 15px;
+}
+
+h4{
+	color: #232323;
+	font-size: 15px;
+	font-family: Lato, normal;
+	padding-bottom: 10px;
+}
+
+#about{
+	background-color: #E0E0E0;
+}
+
+#services .border{
+	border-radius: 2px solid #252525;
+	margin: 10px 3%;
+	padding: 10px 5px;
+	text-align: center;
+	flex: auto;
+	align-items: center;
+	align-content: center;
+	background-color: #B91800;
+}
+#services h4{
+	color: #FFFFFF;
+}
+#services img{
+	margin-bottom: 20px;
+}
+
+#work{
+	background-color: #292929;
+	color: #EFEFEF;
+	padding: 20px 0px 20px 0px;
+	text-align: justify;
+	margin: 20px 0px;
+}
+
+#work h1,h3{
+	color: #FFFFFF;
+}
+#work li{
+	color: #E0E0E0;
+}
+
+#work img{
+	padding: 20px 0px;
+}
+
+#contact{
+	background-color: #E1E1E1;
+}
+
+#sec-formulario{
+	margin: 20px 0px;
+}
+
+#sec-formulario h2{
+	text-align: center;
+	color: #232323;
+	margin: 40px 0px 40px 0px;
+	font-weight: bold;
+}
+
+#sec-formulario p{
+	text-align: center;
+	color:#151515;
+	margin: 20px 0px 20px 0px;
+}
+
+.formulario{
+	background-color: #E0E0E0;
+	margin: 20px 0px;
+	padding: 35px;
+}
+
+.form-group label a{
+	color: #606060;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.form-group input{
+	background-color: white;
+	border: 0.5px solid #AFAFAF;
+}
+
+.form-group textarea{
+	background-color: white;
+	border: 0.5px solid #AFAFAF;
+}
+
+#sec-outro{
+	align-items: center;
+	padding: 60px 0px 10px 0px;
+}
+
+#sec-linkmenu{
+	text-align: center;
+	padding: 15px 0px 25px 0px;
+}
+
+#sec-linkmenu a{
+	font-size: 18px;
+}
+
+.btn{
+	color: white;
+}
+
+.btn-medilab:hover{
+	background-color: white;
+	color: #B91800;
+	border: solid 2px #B91800; 
+}
+.btn-medilab{
+	background-color: #B91800;
+	border-color: #B91800;
+	color: white;
+	margin: 20px 0px;
+}
+
+footer{
+ 	background-color: #232323;
+	color: #FDFCFC;
+	text-align: center;
+	
+}
+
+#sec-data h3{
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+
+#sec-data p{
+	color: white;
+}
+
+i{	
+	padding: 0px 10px 0px 4px;
+	height: 20px;
+}
+
+.form-group i{
+	padding: 8px 10px;
+	height: 30px;
+	border-radius: 20%;
+	background-color: #232323;
+	color: #F5F5F5;
+	margin: 0px 15px 2px 0px;
+	align-content: center;
+}
